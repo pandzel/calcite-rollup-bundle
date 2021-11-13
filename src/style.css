@@ -1,0 +1,6 @@
+@import "@esri/calcite-components/dist/calcite/calcite.css";
+
+body {
+  border: 1px solid lightgray;
+  padding: 1em;
+}
