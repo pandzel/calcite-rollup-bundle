@@ -12,8 +12,8 @@ const production = !process.env.ROLLUP_WATCH;
 export default {
   input: "src/main.js",
   output: {
-    file: "dist/bundle.js",
-    format: "iife",
+    dir: "public",
+    format: "es",
     sourcemap: true,
 		assetFileNames: "[name][extname]"
   },
